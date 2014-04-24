@@ -4,3 +4,7 @@
 require File.expand_path('../config/application', __FILE__)
 
 SampleApp::Application.load_tasks
+
+
+rake gems:install
+rake gems:unpack
